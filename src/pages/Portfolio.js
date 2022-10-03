@@ -182,7 +182,7 @@ const Aboutme = () => {
              <div 
             class='flex absolute z-10 h-fit w-36 mt-20 ml-14 items-center justify-center'> 
             <button onClick={ () => {
-                  window.location.href='https://github.com/developedbyven/personal-website'
+                  window.location.href='https://github.com/developedbyven/Developer-Portfolio-website'
                     }} 
             class="hover-2"
             >
