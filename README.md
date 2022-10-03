@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-Developer Not:This is for now...  I am going to add new features and also new techs in it.
+Developer Not: This is for now...  I am going to add new features and also new techs in it.
 
 ### `Project Link`
 
