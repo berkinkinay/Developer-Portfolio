@@ -15,8 +15,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 See the project what it looks like => [Review](https://berkinkinay.dev/)
 
-### `MIT`
-## Licance
+### `Licance`
+## MIT 
 
 ## `Developer Side (Upcoming features)`
 
