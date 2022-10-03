@@ -14,7 +14,7 @@ import {
    SiTypescript
  } from 'react-icons/si';
 import Animatedloader from '../components/Animatedloader';
-import Moreinfo from '../components/Moreinfo';
+import Moreinfo from '../pages/Moreinfo';
 import Iconsmobile from '../components/Iconsmobile';
 
 const Aboutme = () => {
