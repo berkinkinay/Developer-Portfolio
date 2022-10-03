@@ -8,10 +8,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `React`
 ### `Tailwind`
 
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### `Link`
 
 Launches the test runner in the interactive watch mode.\
