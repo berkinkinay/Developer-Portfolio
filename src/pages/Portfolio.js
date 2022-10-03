@@ -8,7 +8,7 @@ import { FaConnectdevelop } from 'react-icons/fa'
 import { GrReactjs, GrActions } from 'react-icons/gr';
 import { SiVuedotjs, SiTypescript } from 'react-icons/si';
 import {  TbApi } from 'react-icons/tb'
-import './App.css'; 
+import '../Logo.css'; 
 
 const Aboutme = () => {
     return (      
