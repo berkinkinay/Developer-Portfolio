@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Used Techs
 
-In this project.
-
 ### `JavaScript`
 ### `React`
 ### `Tailwind`
