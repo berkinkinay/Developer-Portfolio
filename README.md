@@ -13,7 +13,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Link
 
-Launches the test runner in the interactive watch mode.\
 See the project what it looks like => [Review](https://berkinkinay.dev/)
 
 ## `Developer Side (Upcoming features)`
