@@ -1,4 +1,4 @@
-# Developer Portfolio Tamplate 💻
+# Developer Portfolio 💻
 
 ## Used Techs 🥰
 
