@@ -14,9 +14,10 @@ const Navbar = () => {
    'h-fit absolute right-2 px-20 py-6 w-full text-gray-400 text-xl 2xl:text-lg xl:text-base font-bold'
    >
      <button className='text' onClick={() => {
-               window.location.href= "https://berkinkinay.dev/"
-               }}
-              >   berkinkinay.dev</button> 
+             window.location.href= "https://berkinkinay.dev/"
+             }}
+             >   berkinkinay.dev
+    </button> 
  </div> 
     <div 
      class=
@@ -55,43 +56,35 @@ const Navbar = () => {
         'grid grid-cols-3 gap-3 mt-2'
         >
           <motion.div
-              whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.2 }}
-          >
-           <div onClick={() => {
-             window.location.href= "https://github.com/developedbyven"
-             }}
-            >
+             whileHover={{ scale: 1.1 }}
+             transition={{ duration: 0.2 }}
+             >
+            <a class='' href="https://github.com/developedbyven" target="_blank">     
               <Tooltip disableFocusListener disableTouchListener title="My Github">
                <button> <FaGithub class='hover:text-gray-500' size={30}/> </button> 
               </Tooltip>
-            </div> </motion.div>
-              <motion.div
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ duration: 0.2 }}
-                >                  
-             <div onClick={() => {
-               window.location.href= ""
-               }}
-               >
-                <Tooltip disableFocusListener disableTouchListener title="Dev.to profile">
-                 <button> <FaDev class='hover:text-gray-500' size={30}/> </button> 
-                </Tooltip>
-              </div>
-              </motion.div> 
-               <motion.div
-                   whileHover={{ scale: 1.1 }}
-                   transition={{ duration: 0.2 }}
-                >              
-               <div onClick={() => {
-                  window.location.href= "https://www.linkedin.com/in/berkin-k%C4%B1nay-04a137228/"
-                  }}
-                  > 
-                   <Tooltip disableFocusListener disableTouchListener title="Linkedin profile">
-                     <button> <FaLinkedin class='hover:text-gray-500' size={30}/> </button>
-                   </Tooltip>
-               </div> 
-               </motion.div>  
+             </a>
+            </motion.div>
+            <motion.div
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.2 }}
+               >                  
+            <a class='' href="/">  
+              <Tooltip disableFocusListener disableTouchListener title="Dev.to profile">
+                <button> <FaDev class='hover:text-gray-500' size={30}/> </button> 
+               </Tooltip>
+            </a>
+            </motion.div> 
+          <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.2 }}
+             >              
+            <a class='' href="https://www.linkedin.com/in/berkin-k%C4%B1nay-04a137228/" target="_blank">     
+              <Tooltip disableFocusListener disableTouchListener title="Linkedin profile">
+               <button> <FaLinkedin class='hover:text-gray-500' size={30}/> </button>
+               </Tooltip>
+            </a>   
+          </motion.div>  
          </div>  
       </div>  
     </div>
