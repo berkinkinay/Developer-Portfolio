@@ -68,7 +68,7 @@ const Aboutme = () => {
             <button 
             class="hover-2"
             >
-                Coffe Store App
+                Coffee Store App
               <div>(in development)</div>
             </button> 
             </div>
