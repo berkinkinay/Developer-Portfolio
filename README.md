@@ -18,3 +18,6 @@ See the project what it looks like => [Review](https://berkinkinay.dev/)
 
 Not: This is for now...  I am going to add new features and also new techs in it,
      mobile view, mobile navbar and animations.
+
+### `dev`
+👤 Berkin Kınay
