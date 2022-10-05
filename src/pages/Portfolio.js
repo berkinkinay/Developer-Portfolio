@@ -95,7 +95,7 @@ const Aboutme = () => {
              <SiTypescript class='bg-white' size="1.7em" color="blue" />{" "}
              <GrReactjs size="2.2em" color="purple" />{" "}
              <SiTailwindcss size="2.3em" color="cyan" />{" "} 
-           </div>
+            </div>
             
             <motion.div
              whileHover={{ scale: 1.1 }}
