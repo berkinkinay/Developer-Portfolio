@@ -26,7 +26,7 @@ const Moreinfo = () => {
             </div> 
            <div class='mt-2 text-xl 2xl:text-lg xl:text-base text-gray-200 mr-14 font-semibold sm:mt-36 sm:w-fit'
             >
-              I like to try and use the futures with the new technologies. I'm
+              I like to try and use the new technologies. I'm
               working hard for the best UI and UX experience. 🖥️
            </div>
            <div class='text-xl 2xl:text-lg xl:text-base text-gray-200 mr-5 font-semibold sm:mr-24 sm:mt-72 sm:w-fit'
