@@ -7,7 +7,6 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import "./index.css";
 import Sidebar from './components/Sidebar';
-import Aboutmenew from './pages/Aboutmenew';
 
 const App = () => {
   const location = useLocation();
