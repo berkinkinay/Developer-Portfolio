@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion';
 import { FaNode } from 'react-icons/fa';
 import { TiHtml5 } from 'react-icons/ti';
@@ -13,53 +13,50 @@ import {
    SiBootstrap,
    SiTypescript
  } from 'react-icons/si';
-import Moreinfo from '../pages/Moreinfo';
+import Moreinfo from './Moreinfo';
 import Iconsmobile from '../components/Iconsmobile';
 import { AiOutlineDownCircle } from 'react-icons/ai';
 
-const Aboutme = () => {
+const Aboutmenew = () => {
     return (  
     
  <div className='text'>
   <div className='Mobileview'>
    <div
      class=
-    'flex h-screen 2xl:h-screen w-full items-center justify-center text-black bg-zinc-900 xl:h-[1200px] md:h-[1450px] sm:h-[1490px]'
-   > 
-   <button class='flex absolute w-12 h-12 right-8 bottom-3' 
+    'flex xl:flex xl:flex-col xl:items-center xl:justify-center h-screen 2xl:h-screen w-full items-center justify-center text-black bg-zinc-900 xl:h-[1200px] md:h-[1450px] sm:h-[1490px]'
+    > 
+     <button 
+      class='flex absolute w-6 h-6 right-8 bottom-10 animate-bounce' 
       id='/hello'
-      >
-       <a href='#hello'>
-     <AiOutlineDownCircle size="2.6em" color="white" />{" "}</a> 
-   </button>
+     >
+       <a href=''>
+         <AiOutlineDownCircle size="2.6em" color="white" />{" "}
+       </a> 
+     </button>
   <div 
     class=
    'flex xl:flex xl:flex-col xl:items-center xl:justify-center w-full h-[540px] left-36 items-center text-white sm:w-full'
-   >
-    <div  
-      class=
-     'flex w-1/3 xl:mt-80 h-screen xl:h-[490px] items-center justify-center text-3xl bg-zinc-900 sm:flex sm:absolute sm:bottom-[420px] sm:bg-white sm:w-72 sm:h-80 sm:hidden'
-    >         
+   >      
      <div 
        class=
-       'h-96 3xl:mt-[118px] xl:h-96 w-80 xl:w-96 xl:mt-56 ml-80 2xl:ml-24 mb-24 lg:mb-20 rounded-full items-center justify-center bg-zinc-900 m:hidden'
+       'flex mt-[190px] h-80 w-80 xl:h-96 xl:w-96 xl:mt-56 ml-80 2xl:ml-[170px] mb-24 lg:mb-20 rounded-full items-center justify-center bg-zinc-900 m:hidden'
       > 
-        <img class='h-96 w-80 xl:h-80 lg:h-72 lg:w-56 md:h-64  sm:h-56 rounded-full mb-24 xl:mb-36' src={Me} alt='' /> 
+        <img class='h-96 w-96 xl:h-80 lg:h-72 lg:w-56 md:h-64  sm:h-56 rounded-full mb-24 xl:mb-36' src={Me} alt='' /> 
      </div>
-     <div 
+     <div
        class=
        '3xl:hidden flex! absolute! h-96 w-80 xl:w-96 xl:mt-56 ml-80 mb-24 lg:mb-20 rounded-full items-center justify-center bg-zinc-900'
       > 
         <img class='h-96 w-80' src={Me} alt='' /> 
      </div>
-   </div>   
      <div 
        class=
-      'flex w-2/3 xl:items-center xl:justify-center h-96 items-center justify-center lg:ml-24 lg:mb-24 sm:h-72 sm:bg-gray-700 sm:mr-24 sm:w-full'
+      'flex ml-36 w-[900px] h-[380px] 2xl:h-[380px] right-56 xl:items-center xl:justify-center items-center justify-center lg:ml-24 lg:mb-24 sm:h-72 sm:bg-gray-700 sm:mr-24 sm:w-full'
       >
       <div 
        class=
-       'grid grid-rows-4 grid-flow-col text-white text-xl bg-zinc-900 w-[780px] mr-24 h-72 mb-12 lg:ml-24 sm:h-96 sm:bg-gray-800 sm:w-full'
+       'grid grid-rows-4 grid-flow-col text-white text-xl bg-zinc-900 w-fit h-[378px] lg:ml-24 sm:h-96 sm:bg-gray-800 sm:w-full xl:mr-24 2xl:mr-24 2xl:mt-4'
        >  
         <motion.div
           animate={{ x: 15 }}
@@ -67,7 +64,7 @@ const Aboutme = () => {
         >
         <div
          class=
-         'text-3xl 2xl:text-2xl text-gray-400 font-semibold sm:w-80 sm:mt-12 sm:text-base'
+         'text-3xl mt-6 2xl:text-2xl text-gray-400 font-semibold sm:w-80 sm:mt-12 sm:text-bas'
          >
           Hello👋 I'm <a class="text-sky-500 hover:text-slate-200 after:content-[''] ..." href="https://www.instagram.com/berkinkinay/" target="_blank">Berkin Kınay</a> a Front-End Developer from Turkey
        </div>
@@ -84,7 +81,7 @@ const Aboutme = () => {
         > 
          I am focusing on developing the new features in Software Development.
          I work on JavaScript technologies mostly.  
-         I'm also improving myself about Back-End currently.
+         I'm also improving myself about Back-End currently. yeeees
         </div>
        <div 
         class=
@@ -100,13 +97,16 @@ const Aboutme = () => {
    </div> 
        <div
          class=
-         'text-xl text-purple-600 font-medium absolute 3xl:top-[772px] 2xl:top-[560px] xl:flex! xl:mt-[600px] ml-4 lg:mt-80 lg:ml-12 md:top-[1240px] sm:flex sm:text-xs sm:top-[860px] sm:mr-8'
+         'flex text-xl text-purple-600 font-medium absolute 3xl:bottom-36 2xl:bottom-[125px] xl:top-[1050px] lg:bottom-0 xl:mt-[100px] ml-4 lg:mt-80 lg:ml-12 md:top-[1240px] sm:flex sm:text-xs sm:top-[860px] sm:mr-8'
           >
            <Typewrite 
              onInit=
              {(typewriter) => { 
              typewriter
-             .pauseFor(2000)
+             .typeString ("another happy web landing!")
+             .pauseFor(1000)
+             .deleteAll()
+             .pauseFor(50)
              .typeString ("opss... wait a sec please")
              .pauseFor(1500)
              .deleteAll()
@@ -119,7 +119,7 @@ const Aboutme = () => {
        </div>   
    <div 
     class=
-    'flex h-16 w-[520px] xl:top-[900px] absolute bottom-12 items-center justify-center rounded-[30px] md:top-[1200px] sm:hidden'
+    'flex h-16 w-[520px] xl:top-[900px] lg:mt-36 absolute bottom-12 items-center justify-center rounded-[30px] md:top-[1200px] sm:hidden'
     >
     <div
      class=
@@ -209,4 +209,4 @@ const Aboutme = () => {
  );
 }  
 
-export default Aboutme;
+export default Aboutmenew;
