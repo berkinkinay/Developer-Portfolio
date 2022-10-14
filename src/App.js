@@ -20,10 +20,7 @@ const App = () => {
        <Routes key={location.pathname} location={location}>
         <Route 
           exact 
-          path= '/hi' element= { <Aboutme />} />
-        <Route 
-          exact 
-          path= '/' element= { <Aboutmenew />} />
+          path= '/' element= { <Aboutme />} />
         <Route
           exact 
           path= '/Portfolio' element= { <Porfolio /> } />
