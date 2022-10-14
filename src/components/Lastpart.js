@@ -7,9 +7,9 @@ const Lastpart = () => {
 <div class='text'>
    <div 
     class=
-    'flex h-fit px-8 rounded-md ml-14 mt-14 absolute z-10 w-fit text-gray-400 hover:text-zinc-900 text-xl 2xl:text-lg xl:text-base font-bold lg:hidden'
+    'flex h-fit px-8 rounded-md ml-14 mt-14 absolute z-10 w-fit text-slate-400 hover:text-zinc-500 text-xl 2xl:text-lg xl:text-base font-bold lg:hidden'
     >
-      <button className='text' onClick={() => {
+      <button className='text hover:underline hover:decoration-pink-500' onClick={() => {
                window.location.href= "https://berkinkinay.dev/"
                }}
               >   berkinkinay.dev</button>

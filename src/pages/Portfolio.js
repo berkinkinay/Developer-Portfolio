@@ -5,12 +5,12 @@ import {
   SiTailwindcss,
 } from 'react-icons/si';
 import { FaConnectdevelop } from 'react-icons/fa' 
-import { GrReactjs, GrActions } from 'react-icons/gr';
+import { GrReactjs } from 'react-icons/gr';
 import { SiVuedotjs, SiTypescript } from 'react-icons/si';
-import {  TbApi } from 'react-icons/tb'
+import { TbApi } from 'react-icons/tb'
 import '../Logo.css'; 
 
-const Aboutme = () => {
+const Portfolio = () => {
     return (      
 
   <div
@@ -64,15 +64,15 @@ const Aboutme = () => {
                </div>
             </motion.div>
             <div 
-            class='flex absolute z-10 h-fit w-36 mt-20 ml-80 md:ml-12 md:mt-[600px] items-center justify-center lg:ml-14 lg:mt-[590px]'> 
+            class='flex absolute z-10 h-fit w-36 mt-[74px] ml-80 md:ml-12 md:mt-[600px] items-center justify-center lg:ml-14 lg:mt-[590px]'> 
             <button 
             class="hover-2"
             >
-                Coffee Store App
+                Coffe Store App
               <div>(in development)</div>
             </button> 
             </div>
-            <div class='flex absolute z-10 h-fit w-36 mt-36 ml-80 items-center justify-center text-xs md:ml-12 md:mt-[670px] lg:ml-14 lg:mt-[670px]'
+            <div class='flex absolute z-10 h-fit w-36 mt-[150px] ml-80 items-center justify-center text-xs md:ml-12 md:mt-[670px] lg:ml-14 lg:mt-[670px]'
             >
               Used Techs 
              <SiJavascript class='bg-black' size="1.7em" color="yellow" />{" "}
@@ -81,21 +81,22 @@ const Aboutme = () => {
            </div>
             
            <div 
-            class='flex absolute z-10 h-fit w-36 mt-20 ml-[596px] md:ml-12 md:mt-[860px] items-center justify-center lg:ml-14 lg:mt-[850px]'> 
+            class='flex absolute z-10 h-fit w-36 mt-[70px] ml-[596px] md:ml-12 md:mt-[860px] items-center justify-center lg:ml-14 lg:mt-[850px]'> 
             <button href=""
-            class="hover-2"
+            class="hover-2 text-base"
             >
-                 Star Wars Library Documentation App
+               Music Player & Library App
               <div>(in development)</div>
             </button> 
             </div>
-            <div class='flex absolute z-10 h-fit w-36 mt-36 ml-[598px] items-center justify-center text-xs md:ml-12 md:mt-[940px] lg:ml-14 lg:mt-[940px]'
+            <div class='flex absolute z-10 h-fit w-36 mt-[144px] ml-[598px] items-center justify-center text-xs md:ml-12 md:mt-[940px] lg:ml-14 lg:mt-[940px]'
             >
-              Used Techs 
-             <SiTypescript class='bg-white' size="1.7em" color="blue" />{" "}
-             <GrReactjs size="2.2em" color="purple" />{" "}
+              <div class='w-24'> Used Techs </div>
+             <SiTypescript class='bg-white' size="2.2em" color="blue" />{" "}
+             <GrReactjs size="2.5em" color="purple" />{" "}
+             <TbApi size="3.2em" color="purple" />{" "}
              <SiTailwindcss size="2.3em" color="cyan" />{" "} 
-            </div>
+           </div>
             
             <motion.div
              whileHover={{ scale: 1.1 }}
@@ -106,7 +107,7 @@ const Aboutme = () => {
             </motion.div>
   
             <div 
-            class='flex absolute z-10 h-fit w-36 mt-[336px] ml-14 items-center justify-center'> 
+            class='flex absolute z-10 h-fit w-36 mt-[330px] ml-14 items-center justify-center'> 
             <button 
             class="hover-2"
             >
@@ -130,7 +131,7 @@ const Aboutme = () => {
            <div class='h-64 w-64 bg-white rounded-[60px] hover:blur-sm'></div>
             </motion.div>
             <div 
-            class='flex absolute z-10 h-fit w-36 mt-[340px] ml-80 items-center justify-center lg:ml-14 lg:mt-[1120px]'> 
+            class='flex absolute z-10 h-fit w-36 mt-[338px] ml-80 items-center justify-center lg:ml-14 lg:mt-[1120px]'>
             <button onClick={() => {
              window.location.href= "https://github.com/developedbyven/Vue-Game-XvsO"
              }}
@@ -139,7 +140,7 @@ const Aboutme = () => {
               XvsO Game App 
             </button> 
             </div>
-            <div class='flex absolute z-10 h-fit w-36 mt-[408px] ml-80 items-center justify-center text-xs md:ml-12 md:mt-[1190px] lg:ml-14 lg:mt-[1190px]'
+            <div class='flex absolute z-10 h-fit w-36 mt-[409px] ml-80 items-center justify-center text-xs md:ml-12 md:mt-[1190px] lg:ml-14 lg:mt-[1190px]'
             >
               Used Techs 
              <SiJavascript class='bg-black' size="1.7em" color="yellow" />{" "}
@@ -154,23 +155,22 @@ const Aboutme = () => {
             >
             <div class='h-64 w-64 bg-white rounded-[60px] hover:blur-sm'></div>
              </motion.div>
-             <div 
-            class='flex absolute z-10 h-fit w-36 mt-[332px] ml-[590px] items-center justify-center md:ml-12 md:mt-[1390px] lg:ml-14 lg:mt-[1380px]'> 
+           <div 
+            class='flex absolute z-10 h-fit w-36 mt-[329px] ml-[590px] items-center justify-center md:ml-12 md:mt-[1390px] lg:ml-14 lg:mt-[1380px]'> 
             <button 
-            class="hover-2 text-sm"
+            class="hover-2 text-base"
             >
-              Music Player/Library App
+              Star Wars Library Documentation App               
               <div>(in development)</div>
             </button> 
-            </div>
+           </div>
             <div class='flex absolute z-10 h-fit w-36 mt-[408px] ml-[598px] items-center justify-center text-xs md:ml-12 md:mt-[1460px] lg:ml-14 lg:mt-[1460px]'
             >
               <div class='w-24'> Used Techs </div>
-               
-                <SiJavascript class='bg-black h-fit' size="2.9em" color="yellow" />{" "}
-                <GrReactjs size="2.9em" color="purple" />{" "}
-                <TbApi size="3.2em" color="purple" />{" "}
-                <SiTailwindcss size="2.9em" color="cyan" />{" "} 
+             <SiJavascript class='bg-black h-fit' size="2.9em" color="yellow" />{" "}
+             <GrReactjs size="2.9em" color="purple" />{" "}
+             <TbApi size="3.2em" color="purple" />{" "}
+             <SiTailwindcss size="2.9em" color="cyan" />{" "} 
            </div>
              <motion.div
              whileHover={{ scale: 1.1 }}
@@ -180,7 +180,7 @@ const Aboutme = () => {
              <div class='h-64 w-64 bg-white rounded-[60px] hover:blur-sm'></div>
              </motion.div>
              <div 
-            class='flex absolute z-10 h-fit w-36 mt-20 ml-14 items-center justify-center'> 
+            class='flex absolute z-10 h-fit w-36 mt-[74px] ml-14 items-center justify-center'> 
             <button onClick={ () => {
                   window.location.href='https://github.com/developedbyven/Developer-Portfolio-website'
                     }} 
@@ -189,7 +189,7 @@ const Aboutme = () => {
              Developer Portfolio Website  
             </button> 
             </div>
-            <div class='flex absolute z-10 h-fit w-36 mt-36 ml-14 items-center justify-center text-xs'
+            <div class='flex absolute z-10 h-fit w-36 mt-[146px] ml-14 items-center justify-center text-xs'
             >
               Used Techs 
              <SiJavascript class='bg-black' size="1.7em" color="yellow" />{" "}
@@ -205,4 +205,4 @@ const Aboutme = () => {
     );
 }
 
-export default Aboutme;
+export default Portfolio;

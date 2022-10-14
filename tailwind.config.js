@@ -5,7 +5,7 @@ module.exports = {
     '3xl': {'max': '21250px'},
        // => @media (max-width: 1535px) { ... } 
       
-    '2xl': {'max': '1540px'},
+    '2xl': {'max': '1640px'},
       // => @media (max-width: 1535px) { ... } 
 
     'xl': {'max': '1279px'},

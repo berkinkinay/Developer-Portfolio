@@ -7,19 +7,23 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import "./index.css";
 import Sidebar from './components/Sidebar';
+import Aboutmenew from './pages/Aboutmenew';
 
 const App = () => {
   const location = useLocation();
   return (
   <div>
-   <AnimatePresence initial={true}>   
+   <AnimatePresence initial={true}>  
     <Animatepages />
      <Navbar />
      <Sidebar />
        <Routes key={location.pathname} location={location}>
         <Route 
           exact 
-          path= '/' element= { <Aboutme />} />
+          path= '/hi' element= { <Aboutme />} />
+        <Route 
+          exact 
+          path= '/' element= { <Aboutmenew />} />
         <Route
           exact 
           path= '/Portfolio' element= { <Porfolio /> } />
@@ -29,5 +33,4 @@ const App = () => {
   </div>
   );
 }
-
-export default App;   
+export default App;

@@ -27,7 +27,7 @@
 
 @layer components {
     .sidebar-icon{
-      @apply relative flex items-center justify-center h-12 w-12
+      @apply hidden relative flex items-center justify-center h-12 w-12
              mt-2 mb-2 mx-auto shadow-lg
              bg-gray-800 text-gray-200
              hover:bg-slate-300

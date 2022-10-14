@@ -8,18 +8,18 @@ const Sidebar = () => {
     <div class=''>
     <div 
      className=
-    "3xl:hidden lg:fixed lg:top-4 lg:right-0 lg:h-72 lg:w-24 lg:m-0 lg:flex lg:flex-col lg:text-white lg:shadow-lg lg:bg-slate-500 lg:rounded-lg lg:flex! sm:mr-24 sm:hidden"
+    "hidden lg:fixed lg:top-4 lg:right-0 lg:h-72 lg:w-24 lg:m-0 lg:flex lg:flex-col lg:text-white lg:shadow-lg lg:bg-slate-500 lg:rounded-lg lg:flex! sm:mr-24 sm:hidden"
      >       
-      <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center'>About</div>
+      <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center hidden'>About</div>
        <SideBarIcon icon={<FcPortraitMode size="2em" />} />
-       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center'>Portfolio</div>
+       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center hidden'>Portfolio</div>
        <SideBarIcon icon={<FaConnectdevelop size="2em" />} /> 
-       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center'>Contact</div>
+       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center hidden'>Contact</div>
        <SideBarIcon icon={<AiTwotoneMail size="2em" />} />
     </div>
     <div 
      className=
-    "fixed top-4 right-0 h-72 w-24 m-0 flex flex-col text-white shadow-lg bg-slate-500 rounded-lg 3xl:hidden"
+    "fixed top-4 right-0 h-72 w-24 m-0 flex-col text-white shadow-lg bg-slate-500 rounded-lg hidden"
      >       
       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center'>About</div>
        <SideBarIcon icon={<FcPortraitMode size="2em" />} />
@@ -33,7 +33,7 @@ const Sidebar = () => {
 }
 
 const SideBarIcon = ({ icon }) => (
-<div className='sidebar-icon group'>
+<div className='sidebar-icon group hidden'>
     {icon}
 </div>
 )

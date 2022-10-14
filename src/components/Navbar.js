@@ -11,9 +11,9 @@ const Navbar = () => {
 <Animatepages>  
   <div
    class=
-   'h-fit absolute right-2 px-20 py-6 w-full text-gray-400 text-xl 2xl:text-lg xl:text-base font-bold'
+   'h-fit absolute right-2 px-20 py-6 w-full text-slate-400 text-xl 2xl:text-lg xl:text-base font-bold'
    >
-     <button className='text' onClick={() => {
+     <button className='text hover:underline hover:decoration-sky-500' onClick={() => {
              window.location.href= "https://berkinkinay.dev/"
              }}
              >   berkinkinay.dev
@@ -61,7 +61,7 @@ const Navbar = () => {
              >
             <a class='' href="https://github.com/developedbyven" target="_blank">     
               <Tooltip disableFocusListener disableTouchListener title="My Github">
-               <button> <FaGithub class='hover:text-gray-500' size={30}/> </button> 
+               <button> <FaGithub class='hover:text-zinc-500' size={30}/> </button> 
               </Tooltip>
              </a>
             </motion.div>
@@ -71,7 +71,7 @@ const Navbar = () => {
                >                  
             <a class='' href="/">  
               <Tooltip disableFocusListener disableTouchListener title="Dev.to profile">
-                <button> <FaDev class='hover:text-gray-500' size={30}/> </button> 
+                <button> <FaDev class='hover:text-zinc-500' size={30}/> </button> 
                </Tooltip>
             </a>
             </motion.div> 
@@ -81,7 +81,7 @@ const Navbar = () => {
              >              
             <a class='' href="https://www.linkedin.com/in/berkin-k%C4%B1nay-04a137228/" target="_blank">     
               <Tooltip disableFocusListener disableTouchListener title="Linkedin profile">
-               <button> <FaLinkedin class='hover:text-gray-500' size={30}/> </button>
+               <button> <FaLinkedin class='hover:text-zinc-500' size={30}/> </button>
                </Tooltip>
             </a>   
           </motion.div>  
