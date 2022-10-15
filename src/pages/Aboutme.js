@@ -81,7 +81,7 @@ const Aboutmenew = () => {
         > 
          I am focusing on developing the new features in Software Development.
          I work on JavaScript technologies mostly.  
-         I'm also improving myself about Back-End currently. yeeees
+         I'm also improving myself about Back-End currently.
         </div>
        <div 
         class=
