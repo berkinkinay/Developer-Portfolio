@@ -19,5 +19,5 @@ See the project what it looks like => [Review](https://coffee-store-kappa.vercel
 This is for now...  I am going to add new features and also new techs in it,
 `mobile view, mobile navbar and new animations.`
 
-### `dev.`
+### `dev`
 Berkin Kınay 👤
