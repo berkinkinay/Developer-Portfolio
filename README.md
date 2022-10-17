@@ -10,7 +10,7 @@
 
 ## Project Link 🔭
 
-See the project what it looks like => [Review](https://coffee-store-kappa.vercel.app/)
+See the project what it looks like => [Review](https://berkinkinay.dev/)
 
 ## Licance
 ### `MIT` ⚖️
