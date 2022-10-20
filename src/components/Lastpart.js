@@ -7,28 +7,32 @@ const Lastpart = () => {
 <div class='text'>
    <div 
     class=
-    'flex h-fit px-8 rounded-md ml-14 mt-14 absolute z-10 w-fit text-slate-400 hover:text-zinc-500 text-xl 2xl:text-lg xl:text-base font-bold lg:hidden'
+    'flex h-fit px-8 rounded-md ml-14 mt-14 absolute z-10 w-fit text-slate-400 hover:text-zinc-500 text-xl 2xl:text-lg xl:text-base xl:flex xl:absolute xl:left-[480px] xl:mt-12 xl:w-fit xl:h-fit font-bold sm:flex sm:w-fit sm:absolute sm:left-[70px] sm:mt-4 xs:ml-[40px]'
     >
-      <button className='text hover:underline hover:decoration-pink-500' onClick={() => {
+      <button className='text hover:underline hover:decoration-pink-500 sm:mb-20' onClick={() => {
                window.location.href= "https://berkinkinay.dev/"
                }}
-              >   berkinkinay.dev</button>
+              >   berkinkinay.dev
+      </button>
    </div> 
+   <div class='xl:flex xl:h-96 xl:w-full xl:mt-0 xl:items-center xl:justify-center xl:absolute '>
    <div
     class=
-    'flex h-36 w-full text-white bg-purple-900 items-center justify-center xl:hidden lg:hidden'
+    'flex h-36 w-full text-white bg-purple-900 items-center justify-center xl:flex xl:absolute xl:bottom-0 xl:h-96 xl:w-full sm:flex sm:w-full sm:h-[400px] sm:mt-[350px] sm:justify-center sm:items-center'
     >  
-   <div 
+       <div class='3xl:hidden sm:flex! sm:absolute text-sm sm:flex sm:left-24 sm:mt-56 sm:w-56'>© 2022 Copyright. All Rights Reserved.</div>
+   <div
     class=
-    'flex h-36 w-36 ml-[208px]'
+    'sm:flex sm:absolute sm:h-36 sm:w-36 sm:left-0'
     >   
-    <div class='h-8 w-fit flex absolute items-center 3xl:left-[470px] 2xl:left-[380px] mt-14 justify-center'>
-      <div class='text-sm'> © 2022 Copyright. All Rights Reserved. </div></div>
+     <div class='sm:hidden h-8 w-fit absolute items-center 3xl:left-[470px] 2xl:left-[380px] 3xl:mt-[37px] 2xl:mt-[30px] justify-center sm:w-fit sm:h-fit sm:absolute sm:pr-[900px] sm:mt-48'>
+        <div class='sm:hidden text-sm xl:flex xl:absolute xl:left-[140px] xl:mt-36 xl:w-80 xl:h-fit'>© 2022 Copyright. All Rights Reserved.</div>
+     </div>
      <div
       class=
-      'gird grid-cols-1 h-fit w-fit 2xl:text-xs font-light text-sm mt-7'
+      'gird grid-cols-1 3xl:ml-36 xl:ml-36 h-fit w-fit 2xl:text-xs font-light text-sm mt-0 xl:bottom-48 xl:absolute xl:left-[420px] xl:w-fit sm:flex sm:text-base sm:absolute sm:bottom-8 sm:left-0 sm:w-full xs:ml-[120px]'
       > 
-      <div class='mb-4'> Links</div>
+      <div class='mb-4 sm:flex sm:absolute sm:bottom-14 sm:h-12 sm:mb-16'> Links</div>
         <div class='grid grid-cols-2 gap-4 underline italic'
          >
           <ul class='underline hover:text-gray-400'>
@@ -38,7 +42,7 @@ const Lastpart = () => {
               <li> <a href='/Portfolio'> Portfolio </a></li>
            </ul> 
          </div>
-         <div class='hover:text-gray-400' >
+         <div class='hover:text-gray-400 sm:mb-10' >
            <ul class=''>
               <li> <a href='mailto:helloberkin@gmail.com'> Contact </a></li>
            </ul> 
@@ -48,7 +52,7 @@ const Lastpart = () => {
     </div>
    <div 
      class=
-     'flex h-36 w-48 absolute 3xl:right-[310px] 2xl:right-[200px] items-center justify-center'
+     'flex h-36 w-48 absolute 3xl:right-[310px] 2xl:right-[200px] items-center justify-center 3xl:mr-4 xl:flex xl:absolute xl:left-[480px] xl:mt-36 xl:w-fit xl:h-fit sm:flex sm:absolute sm:left-[78px] sm:mt-24 xs:left-12'
      >
      <div
       class=
@@ -88,8 +92,9 @@ const Lastpart = () => {
     </div>
    </div>
  </div>
+ </div>
 </div>
   )
 }
 
-export default Lastpart
+export default Lastpart;
