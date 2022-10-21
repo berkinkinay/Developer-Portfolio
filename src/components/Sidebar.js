@@ -5,10 +5,11 @@ import { AiTwotoneMail } from 'react-icons/ai';
 
 const Sidebar = () => {
   return (
-    <div class=''>
+ 
+    <div class='hidden'>
     <div 
      className=
-    "hidden lg:fixed lg:top-4 lg:right-0 lg:h-72 lg:w-24 lg:m-0 lg:flex lg:flex-col lg:text-white lg:shadow-lg lg:bg-slate-500 lg:rounded-lg lg:flex! sm:mr-24 sm:hidden"
+    " 3xl:hidden lg:fixed lg:top-4 lg:right-0 lg:h-72 lg:w-24 lg:m-0 lg:flex lg:flex-col lg:text-white lg:shadow-lg lg:bg-slate-500 lg:rounded-lg lg:flex! sm:mr-24 "
      >       
       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center hidden'>About</div>
        <SideBarIcon icon={<FcPortraitMode size="2em" />} />
@@ -19,7 +20,7 @@ const Sidebar = () => {
     </div>
     <div 
      className=
-    "fixed top-4 right-0 h-72 w-24 m-0 flex-col text-white shadow-lg bg-slate-500 rounded-lg hidden"
+    "3xl:hidden fixed top-4 right-0 h-72 w-24 m-0 flex-col text-white shadow-lg bg-slate-500 rounded-lg"
      >       
       <div class='mt-2 text-base w-12 ml-6 h-fit flex items-center justify-center'>About</div>
        <SideBarIcon icon={<FcPortraitMode size="2em" />} />
@@ -37,5 +38,4 @@ const SideBarIcon = ({ icon }) => (
     {icon}
 </div>
 )
-
 export default Sidebar;

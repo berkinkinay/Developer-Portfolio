@@ -3,8 +3,6 @@ import { motion } from 'framer-motion';
 import { FaNode } from 'react-icons/fa';
 import { TiHtml5 } from 'react-icons/ti';
 import { GrReactjs } from 'react-icons/gr';
-import Typewrite from "typewriter-effect";
-import Me from "../components/img/hi.png";
 import {
    SiJavascript,
    SiCsswizardry, 
@@ -18,7 +16,7 @@ import {
    return (
     <div 
     class=
-    '3xl:hidden sm:flex sm:h-[420px] sm:w-1 sm:z-10 sm:absolute sm:right-[220px]'
+    '3xl:hidden sm:flex sm: top-[970px] sm:h-[420px] sm:w-1 sm:z-10 sm:absolute sm:right-[250px] xs:flex xs:absolute xs:left-[140px]'
     >
     <div 
      class=

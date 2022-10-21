@@ -5,18 +5,17 @@ import Tooltip from '@mui/material/Tooltip';
 import Animatepages from './Animatepages';
 
 const Navbar = () => {
-
   return (
 
 <Animatepages>  
   <div
    class=
-   'h-fit absolute right-2 px-20 py-6 w-full text-slate-400 text-xl 2xl:text-lg xl:text-base font-bold'
+   'h-fit absolute right-2 px-20 py-6 w-full text-slate-400 text-xl 2xl:text-lg xl:text-base font-bold sm:flex sm:w-fit sm:absolute sm:left-[82px] xs:flex xs:absolute xs:left-[60px]'
    >
      <button className='text hover:underline hover:decoration-sky-500' onClick={() => {
              window.location.href= "https://berkinkinay.dev/"
-             }}
-             >   berkinkinay.dev
+              }}
+     >   berkinkinay.dev
     </button> 
  </div> 
     <div 

@@ -11,7 +11,7 @@ module.exports = {
     'xl': {'max': '1279px'},
       // => @media (max-width: 1279px) { ... }
 
-    'lg': {'max': '1000px'},
+    'lg': {'max': '1024px'},
     // => @media (max-width: 1023px) { ... }
 
     'md': {'max': '768px'},
@@ -20,7 +20,10 @@ module.exports = {
     'sm': {'max': '640px'},
     // => @media (max-width: 639px) { ... }
 
-    'xs': {'max': '430px'},
+    'ms': {'max': '425px'},
+    // => @media (max-width: 639px) { ... }
+
+    'xs': {'max': '375px'},
     // => @media (max-width: 639px) { ... }
     },
   }
