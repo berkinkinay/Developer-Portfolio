@@ -85,7 +85,7 @@ const blackBox = {
             y="50%"
             style={{ fill: "url(#pattern)" }}
           >
-            Berkin Kınay
+            Hello There
           </text>
         </motion.svg>
       </motion.div>
