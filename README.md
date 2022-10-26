@@ -1,5 +1,5 @@
 # Developer Portfolio 💻
-`This is my personal showcase.`
+`This is my personal showcase website project.`
 
 ## Used Techs 🥰
 
