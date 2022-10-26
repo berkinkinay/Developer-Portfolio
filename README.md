@@ -13,7 +13,7 @@
 
 ## Project Link 🔭
 
-See the project what it looks like => [Review](https://berkinkinay.dev/)
+`See the project what it looks like` => [Review](https://berkinkinay.dev/)
 
 ## Licance
 ### `MIT` ⚖️
