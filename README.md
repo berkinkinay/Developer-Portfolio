@@ -6,6 +6,9 @@
 ### `JavaScript`
 ### `React`
 ### `Tailwind`
+### `React router`
+### `Framer motion`
+
 
 
 ## Project Link 🔭
