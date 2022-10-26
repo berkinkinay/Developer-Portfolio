@@ -4,7 +4,7 @@
 ## Used Techs 🥰
 
 ### `JavaScript`
-### `React`
+### `ReactJS`
 ### `Tailwind`
 ### `React router`
 ### `Framer motion`
