@@ -59,7 +59,7 @@
          whileHover={{ y: -17, transition: { duration: 0.1 }, }}  
          transition={{ type: "spring", stiffness: 50,  duration: 0.5 }}
       >   
-       <div class='rounded-2xl shadow-xl' autoPlay loop muted>
+        <div class='rounded-2xl shadow-xl'>
          <video class='rounded-2xl mb-1' autoPlay loop muted src={bgImage} type="hello/mp4"/>
        </div>
       </motion.div>
