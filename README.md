@@ -7,9 +7,8 @@
 ### `ReactJS`
 ### `Tailwind`
 ### `React router`
-### `Framer motion`
-
-
+### `Framer Motion`
+### `Material UI`
 
 ## Project Link 🔭
 
