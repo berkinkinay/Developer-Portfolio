@@ -5,7 +5,7 @@
 
 ### `JavaScript`
 ### `ReactJS`
-### `Tailwind`
+### `TailwindCSS`
 ### `React router`
 ### `Framer Motion`
 ### `Material UI`
