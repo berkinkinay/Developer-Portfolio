@@ -62,7 +62,7 @@ const Aboutmenew = () => {
         'text-slate-500 font-semibold text-xl 2xl:text-lg mt-10 '
         >  
           I Build & Develop web apps 🌐 who specializes in developing <a class=" font-bold text-purple-600 after:content-[''] ..." href="" >React</a> apps. 
-          I can develop your future beautiful, smooth website to bring a high quality and beautiful web experience. 
+          Focusing on the best user experience, I can optimize your applications and provide high-performance developments. 
        </div>
        <div
         class=
