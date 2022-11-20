@@ -94,3 +94,5 @@ const blackBox = {
   };
 
   export default Animatedloader;
+
+

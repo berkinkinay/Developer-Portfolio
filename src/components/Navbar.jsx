@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaDev, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import Tooltip from '@mui/material/Tooltip';
@@ -16,22 +16,22 @@ const Navbar = () => {
              window.location.href= "https://berkinkinay.dev/"
               }}
      >   berkinkinay.dev
-    </button> 
- </div> 
+    </button>
+ </div>
     <div 
      class=
     'flex absolute top-4 right-10 bg-zinc-900 rounded-md lg:hidden'
     >
-     <div 
+     <div
       class=
-      'flex text-white w-full h-10 items-center text-xl justify-center gap-2 2xl:text-base'
+      'flex text-white w-full h-10 items-center 3xl:text-lg justify-center gap-2 2xl:text-base'
       > 
       <div 
        className=
-      'grid grid-cols-3 gap-4 italic'
+      'grid grid-cols-4 font-semibold italic'
       > 
        <div 
-        class='hover:text-gray-400'
+        class='hover:text-gray-400' 
        >
          <ul class=''>
            <li className='Pointer'> <a href='/'>About me</a></li>  </ul>
@@ -45,11 +45,17 @@ const Navbar = () => {
        class=
        'hover:text-gray-400'
        >
-        <ul class=''>
+        <ul class='ml-2'>
           <li className='Pointer'> <a href='mailto:helloberkin@gmail.com'> Contact </a></li>  </ul>
       </div>
+       <div 
+        class='hover:text-gray-400'
+       >
+         <ul class='mr-2'>
+           <li className='Pointer'> <a target="_blank" rel="noreferrer" href='https://developer-workspace.vercel.app/'>Workspace</a></li>  </ul>
+       </div>
      </div>
-       <div class='text-5xl font-light mr-4 mb-1'> I </div>
+       <div class='text-5xl font-light mr-1 mb-1'> I </div>
        <div 
         class=
         'grid grid-cols-3 gap-3 mt-2'
@@ -58,7 +64,7 @@ const Navbar = () => {
              whileHover={{ scale: 1.1 }}
              transition={{ duration: 0.2 }}
              >
-            <a class='' href="https://github.com/developedbyven" target="_blank">     
+            <a class='' target="_blank" rel="noreferrer"  href="https://github.com/developedbyven">     
               <Tooltip disableFocusListener disableTouchListener title="My Github">
                <button> <FaGithub class='hover:text-zinc-500' size={30}/> </button> 
               </Tooltip>
@@ -68,7 +74,7 @@ const Navbar = () => {
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2 }}
                >                  
-            <a class='' href="/">  
+            <a class='' target="_blank" rel="noreferrer" href="/">  
               <Tooltip disableFocusListener disableTouchListener title="Dev.to profile">
                 <button> <FaDev class='hover:text-zinc-500' size={30}/> </button> 
                </Tooltip>
@@ -77,8 +83,8 @@ const Navbar = () => {
           <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.2 }}
-             >              
-            <a class='' href="https://www.linkedin.com/in/berkin-k%C4%B1nay-04a137228/" target="_blank">     
+             >      
+            <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/berkin-k%C4%B1nay-04a137228/'>
               <Tooltip disableFocusListener disableTouchListener title="Linkedin profile">
                <button> <FaLinkedin class='hover:text-zinc-500' size={30}/> </button>
                </Tooltip>

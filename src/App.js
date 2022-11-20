@@ -1,32 +1,32 @@
+import React, { lazy } from 'react'
 import Animatepages from './components/Animatepages';
 import Navbar from './components/Navbar';
 import Lastpart from './components/Lastpart';
-import Porfolio from './pages/Portfolio';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
 import "./index.css";
 import Sidebar from './components/Sidebar';
-import Aboutmenew from './pages/Aboutmenew';
+import { Yes } from './components/Yes';
+
+const Portfolio = lazy(() => import ("./pages/Portfolio"));
+const Aboutmenew = lazy(() => import ("./pages/Aboutmenew"));
 
 const App = () => {
-  const location = useLocation();
+    const location = useLocation();
   return (
-  <div>
-   <AnimatePresence initial={true}>  
-    <Animatepages />
-     <Navbar />
-     <Sidebar />
-       <Routes key={location.pathname} location={location}>
-        <Route 
-          exact 
-          path= '/' element= { <Aboutmenew />} />
-        <Route
-          exact 
-          path= '/Portfolio' element= { <Porfolio /> } />
-       </Routes>
-      <Lastpart />
-   </AnimatePresence>
-  </div>
+   <>
+   <Animatepages />
+    <Navbar />
+    <Sidebar />
+     <Routes key={location.pathname} location={location}>
+       <Route 
+         exact 
+         path= '/' element= { <Aboutmenew />} />
+       <Route
+         exact 
+         path= '/Portfolio' element= { <Portfolio /> } />
+     </Routes>
+   <Yes />
+   </>
   );
 }
 export default App;
