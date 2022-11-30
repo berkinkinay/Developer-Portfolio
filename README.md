@@ -22,4 +22,4 @@ This is for now...  I am going to add new features and also new techs in it, tab
  `Especially I'm focusing on new sections about my showcase recently.`
 
 ### `dev`
-Berkin Kınay 👤
+Berkin Kınay 👨‍💻
